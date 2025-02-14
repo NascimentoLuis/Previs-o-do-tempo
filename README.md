@@ -14,6 +14,7 @@ Esse projeto permite que você consulte a previsão do tempo de uma cidade, usan
 
 ```bash
 git clone https://github.com/NascimentoLuis/previsao-do-tempo.git
+```
 
 Configurar o Backend
 Instalar dependências:
