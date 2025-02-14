@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Previsão do tempo</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+   
+    <div class="container">
+        <h2>🌤️ Previsão do Tempo</h2> <!-- Título da aplicação -->
+
+        <!-- Campo de entrada onde o usuário digita o nome da cidade -->
+        <input type="text" id="cidade" placeholder="Digite a cidade">
+
+        <!-- Botão que, ao ser clicado, chama a função buscarClima() para obter os dados do clima -->
+        <button onclick="buscarClima()">Buscar</button>
+
+        <!-- Div onde os resultados do clima serão exibidos -->
+        <div class="resultado" id="resultado"></div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

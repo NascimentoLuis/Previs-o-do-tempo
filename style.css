@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;  /* Define a fonte para o corpo da página */
+    text-align: center;  /* Centraliza o texto na página */
+    background-color: #f0f0f0;  /* Define uma cor de fundo cinza claro */
+    margin: 0;  /* Remove a margem padrão da página */
+    padding: 0;  /* Remove o preenchimento padrão da página */
+}
+
+.container {
+    max-width: 400px;  /* Limita a largura máxima do container a 400px */
+    margin: 50px auto;  /* Centraliza o container horizontalmente e dá uma margem superior de 50px */
+    background: white;  /* Define a cor de fundo do container como branco */
+    padding: 20px;  /* Adiciona um preenchimento de 20px dentro do container */
+    border-radius: 10px;  /* Adiciona cantos arredondados com raio de 10px */
+}
+
+input {
+    width: 80%;  /* Define a largura do campo de input para 80% da largura do container */
+    padding: 10px;  /* Adiciona preenchimento interno de 10px ao input */
+    margin-top: 10px;  /* Adiciona uma margem superior de 10px */
+    border: 1px solid #ccc;  /* Define uma borda fina de cor cinza claro */
+    border-radius: 5px;  /* Adiciona cantos arredondados ao input */
+}
+
+button {
+    padding: 10px 20px;  /* Adiciona preenchimento interno de 10px na vertical e 20px na horizontal */
+    margin-top: 10px;  /* Adiciona uma margem superior de 10px */
+    border: none;  /* Remove a borda do botão */
+    background: #007bff;  /* Define a cor de fundo do botão como azul */
+    color: white;  /* Define a cor do texto no botão como branco */
+    border-radius: 5px;  /* Adiciona cantos arredondados ao botão */
+    cursor: pointer;  /* Altera o cursor para 'pointer' ao passar o mouse sobre o botão */
+}
+
+button:hover {
+    background: #0056b3;  /* Altera a cor de fundo do botão para um tom de azul mais escuro ao passar o mouse */
+}
+
+.resultado {
+    margin-top: 20px;  /* Adiciona uma margem superior de 20px para a área de resultados */
+}
