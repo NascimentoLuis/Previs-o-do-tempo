@@ -6,7 +6,7 @@ app = Flask(__name__)  # Inicializa a aplicação Flask
 CORS(app)  # Habilita o CORS para permitir que o front-end acesse este back-end
 
 # Chave da API do OpenWeatherMap (usada para obter dados de clima)
-API_KEY = "efdc6be790b13e68bc989f788addc8a7"
+API_KEY = "SUA API"
 
 # Define a rota "/clima" para responder a requisições GET
 @app.route('/clima', methods=['GET'])
