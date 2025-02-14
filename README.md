@@ -16,50 +16,48 @@ Esse projeto permite que você consulte a previsão do tempo de uma cidade, usan
 git clone https://github.com/NascimentoLuis/previsao-do-tempo.git
 ```
 
-Configurar o Backend
-Instalar dependências:
+**Configurar o Backend:**
+*Instalar dependências:**
 
 Certifique-se de ter o Python 3 instalado na sua máquina.
+
 Navegue até a pasta do backend do projeto e crie um ambiente virtual:
-bash
-Copiar
-Editar
-python3 -m venv venv
-Ative o ambiente virtual:
+**python3 -m venv venv**
 
-No Windows:
-bash
-Copiar
-Editar
-venv\Scripts\activate
-No Mac/Linux:
-bash
-Copiar
-Editar
+**Ativar o ambiente virtual:**
+No Windows: venv\Scripts\activate
+
+**No Mac/Linux**
 source venv/bin/activate
-Instale as dependências necessárias:
 
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Configurar a API_KEY:
-
+**Configurar a API_KEY:**
 Cadastre-se na OpenWeatherMap e pegue sua chave de API (API_KEY).
-Substitua a variável API_KEY no código do backend com sua chave.
-3. Rodar o Backend
-Na pasta do backend, execute o seguinte comando para rodar o servidor Flask:
+Substitua a variável API_KEY no código do backend (app.py) com sua chave pessoal.
 
-bash
-Copiar
-Editar
+**Rodar o Backend:**
 python app.py
-Isso iniciará o servidor local em http://127.0.0.1:5000.
+Isso iniciará o servidor local em: http://127.0.0.1:5000.
 
-4. Configurar o Frontend
-Navegue até a pasta do frontend do projeto (onde está o arquivo index.html) e abra o arquivo index.html no seu navegador.
+**Configurar o Frontend:**
+Navegue até a pasta onde está o arquivo index.html.
+Abra o arquivo index.html no seu navegador de preferência.
 O frontend fará requisições ao servidor Flask que você iniciou anteriormente para obter as informações de clima.
-5. Como Usar
+
+**Como Usar**
 Abra o arquivo index.html no seu navegador.
 Digite o nome de uma cidade na caixa de pesquisa e clique em "Buscar".
-O sistema irá retornar a previsão do tempo da cidade informada, incluindo a temperatura e a descrição do clima.
+O sistema irá retornar a previsão do tempo da cidade informada, incluindo a temperatura e a descrição do clima. 
+
+**Estrutura de Arquivos**
+index.html: Página principal onde o usuário insere o nome da cidade para buscar a previsão do tempo.
+style.css: Estilo da página (interface).
+script.js: Código JavaScript que faz a requisição ao backend e manipula a resposta.
+app.py: Backend feito em Flask que consome a API OpenWeatherMap e retorna a previsão do tempo.
+
+
+
+
+
+
+
+
